@@ -6,5 +6,5 @@ deploy:
   bucket: git-to-amazon-s3-outputbucket-1kmi97l3ckhy9
   on: 
     repo: iraprysiazhniuk/labs
-    acl: public_read
+    acl: public_read     
     
