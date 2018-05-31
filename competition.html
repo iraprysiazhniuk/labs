@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ <html lang="uk">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="competition.css">
+            <script src="canvas.js"></script>
+			<script src="music.js"></script>
+			<script src="json.js"></script>
+                <title>Конкурс</title>            
+        </head>
+     <body>
+         <header>
+         <img alt="Логотип" id="logo" src="shooting/146987.jpg">
+             <p class="theme" id="theme">Конкурс</p>
+         </header>
+         <nav>
+             <a href="shooting.html">Головна</a> <a href="registration.html">Реєстрація</a> <a href="gallery.html">Галерея</a> <a href="competition.html">Конкурс</a> <a href="aboutUs.html">Про нас</a>
+        </nav>
+         <section>
+             <h1>Спробуйте намалювати свою улюблену зброю і виграти абонемент у наш клуб.</h1>
+             <h2>Бажаємо удачі!</h2>
+             <canvas id="canvas"></canvas>
+                   <p><button id="submit">Відправити малюнок</button></p>
+         </section>
+		 <h3>Для натхнення пропонуємо Вам прослухати чудовий трек:</h3>
+		 <div>
+			 <audio controls="controls" src="Naughty boy feat Beyonce - Runnin lose it all.mp3"></audio>
+		 </div> 
+		 <h3>За бажанням Ви можете завантажити власну музику:</h3>
+		 <div>
+			 <audio id="audio" controls="controls"></audio><br>
+			 <input type="file" id="file">
+		 </div>
+		 <section>
+			 <h3>А ось призи тим, хто більш точно зможе зобразити зброю:</h3>
+			 <button id="json">Показати вміст</button>
+			 <table id="json1"></table>
+			 <h3>Радимо переглянути фільми, де яскраво проілюстрована стрільба</h3>
+			 <button id="xml">Показати вміст</button>
+			 <div>
+				 <table id="xmlTable"></table>
+			 </div>
+		 </section>
+     </body>
+</html>

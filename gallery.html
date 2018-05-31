@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+ <html lang="uk">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="shooting_gal.css">
+			<script src="dragndrop.js"></script>
+                <title>Галерея</title>            
+        </head>
+     <body>
+         <header>
+         <img alt="Логотип" id="logo" src="shooting/146987.jpg">
+             <p class="theme" id="theme">Галерея</p>
+         </header>
+         
+         <nav>
+             <a href="shooting.html">Головна</a> <a href="registration.html">Реєстрація</a> <a href="gallery.html">Галерея</a> <a href="competition.html">Конкурс</a> <a href="aboutUs.html">Про нас</a>
+        </nav>
+         <div class="photos" id="photos">
+             <img alt="Пневматична гвинтівка" src="shooting/pne.jpg">
+             <h2>Пневматична гвинтівка</h2>
+             <img alt="Автомат 'Калашнікова'" src="shooting/kalas.jpg">
+             <h2>Автомат "Калашнікова"</h2>
+             <img alt="Карабін 'Вепр'" src="shooting/vepr.jpg">
+             <h2>Карабін "Вепр"</h2>
+             <img alt="Grand Power" src="shooting/Grand_Power_T10.jpg">
+             <h2>Grand Power</h2>
+             <img alt="Лук" src="shooting/polaris1.jpg">
+             <h2>Лук</h2>
+         </div>
+		 <h3>Ви можете завантажити свої фото, пов'язані зі стрільбою:</h3>
+		 <div class="uploadOuter">
+  <label for="uploadFile" class="btn btn-primary">Upload Image</label>
+  <strong>OR</strong>
+<dspan class="dragBox" >
+  Drag and Drop image here
+<input type="file" onChange="dragNdrop(event)"  ondragover="drag()" ondrop="drop()" id="uploadFile"  />
+</dspan>
+</div>
+<div id="preview"></div>
+
+     </body>
+</html>

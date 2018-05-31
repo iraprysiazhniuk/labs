@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ <html lang="uk">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="shooting_reg.css">
+                <title>Реєстрація</title>            
+        </head>
+     <body>
+         <header>
+         <img alt="Логотип" id ="logo" src="shooting/146987.jpg">
+             <p class="theme" id="theme">Реєстрація</p>
+         </header>
+         <nav>
+             <a href="shooting.html">Головна</a> <a href="registration.html">Реєстрація</a> <a href="gallery.html">Галерея</a> <a href="competition.html">Конкурс</a> <a href="aboutUs.html">Про нас</a>
+        </nav>
+         <section>
+             <h2>Пропонуємо вам стати учасником нашого клубу</h2>
+             <h3>Для цього потрібно вказати деякі Ваші дані, це займе декілька хвилин</h3>
+             <div id="forUser">
+                 <form id="form">
+                     <div>
+                         <fieldset>
+                             <legend>Заповніть, будь ласка, форму</legend>
+                             <div><label for="name">Ім'я</label></div>
+                             <div><input class="required" name="name" id="name" type="text" placeholder="Ваше ім'я" autofocus="" required="" title="Ваше ім'я"></div>
+                             
+                             <div><label for="surname">Прізвище</label></div>
+                             <div><input  name="surname" id="surname" type="text" placeholder="Ваше прізвище" required="" title="Ваше прізвище"></div>
+                             
+                             <div><label for="email">Електронна адреса</label></div>
+                             <div><input name="email" id="email" type="email" placeholder="shooter@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required="" title="Ведіть свою електронну адресу"></div>
+                                 
+                             <div><label for="gender">Стать</label></div>
+                             <div><select name="gender" id="gender" title="Оберіть свою стать"><option value="male">Чоловік</option><option value="female">Жінка</option></select></div>   
+                             
+                             <div><label for="age">Вік</label></div>
+                             <div><input name="age" id="age" type="number" placeholder="Ваш вік" data-regexp="[0-9]" required="" title="Вкажіть свій вік"></div>
+                                 
+                             <div><label for="phone">Телефон</label></div>
+                             <div><input name="phone" id="phone" type="phone" placeholder="+380000000000" pattern="^\+380\d{9}$" required="" title="Введіть свій номер телефону"></div><br>
+                                 
+                             <div><label>Оберіть зброю, яку хотіли б випробувати:</label></div><br>
+                             <input type="checkbox" id="firearm">Вогнепальна<br>
+                             <input type="checkbox" id="traumatic">Травматична<br>
+                             <input type="checkbox" id="pneumatic">Пневматична<br>
+                             <input type="checkbox" id="flay">Метальна<br>
+                         </fieldset>
+                     </div>
+                     <table id="json"></table>
+                     <div>
+                         <p>Ви можете поділитися своїм фото(необов'язково)</p>
+                         <input type="file" id="image" multiple="">
+                        <div id="image"></div>
+                     </div>
+                     <button type="submit" title="Відправити форму">Відправити</button>
+                 </form>
+             </div>
+             <div>
+                <button id="logOut">Вихід</button>
+            </div>
+         </section>

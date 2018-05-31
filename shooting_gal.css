@@ -1,0 +1,139 @@
+body{
+     width: 100%;
+    background: url("shooting/maxresdefault.jpg") fixed no-repeat;
+    background-size: cover;
+    font-style: normal;
+    font-size: large;
+    color: azure;  
+    display: block;
+}
+header{
+     font-weight: 800;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    margin-right: 800px;
+}
+#logo{
+    height: 120px;   
+    float: left;
+}
+#theme{
+    font-size: 70px;
+    color:darkkhaki;
+    margin: 0px;
+    margin-top: 10px;
+    
+}
+nav{
+     background-color: darkgrey;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    margin-top: 50px;
+}
+nav a{
+    color: black;
+}
+.photos img{
+    width: 1000px;
+    height: 500px;
+}
+#photos{
+    margin-top: 50px;
+}
+.uploadOuter {
+  text-align: center;
+  padding: 20px;
+  strong {
+    padding: 0 10px
+  }
+}
+.dragBox {
+  width: 250px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  line-height: 95px;
+  color: #999;
+  border: 2px dashed #ccc;
+  display: inline-block;
+  transition: transform 0.3s;
+  input[type="file"] {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+  }
+}
+.draging {
+  transform: scale(1.1);
+}
+#preview {
+  text-align: center;
+  img {
+    max-width: 100%
+  }
+}
+@media screen and (max-width:1000px)
+{
+    body{
+        width: 800px;
+    }
+    .theme {
+        font-size: 110pt;
+    }
+}
+@media screen and (max-width:800px)
+{
+    body{
+        width: 600px;
+    }
+    .theme {
+        font-size: 80pt;
+    }
+}
+@media screen and (max-device-width:1000px)
+{
+    body{
+        width: 800px;
+    }
+    .theme {
+        font-size: 110pt;
+    }
+}
+@media screen and (max-device-width:800px)
+{
+    body{
+        width: 600px;
+    }
+    .theme {
+        font-size: 80pt;
+    }
+}
+@media screen and (max-device-width:500px)
+{
+    body{
+        width: 300px;
+    }
+    .theme {
+        font-size: 32pt;
+    }
+    h1 {
+        font-size: 10pt;
+    }
+    h2 {
+        font-size: 16pt;
+    }
+    h3{
+        font-size: 14pt;
+    }
+    p {
+        font-size: 12pt;
+    }
+}

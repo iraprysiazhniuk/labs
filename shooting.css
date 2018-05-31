@@ -1,0 +1,132 @@
+body{
+    width: 100%;
+    background: url("shooting/maxresdefault.jpg") fixed no-repeat;
+    background-size: cover;
+    font-style: normal;
+    font-size: large;
+    color: azure;  
+    display: block;
+    
+}
+.photos img{
+    width: 400px;
+    height: 240px;
+    margin-left: 40px;
+    
+    
+}
+header{
+    font-weight: 800;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    margin-right: 370px;
+}
+#logo{
+    height: 120px;  
+    float: left;
+   
+    
+    
+
+}
+#theme{
+    font-size: 70px;
+    color:darkkhaki;
+    margin: 0px;
+    margin-top: 10px;
+    
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+}
+section{
+     color: white;
+    font-style: normal;
+    font-size: larger;
+    border-radius: 10px;
+    margin-left: 40px;
+    text-align: left;
+    margin-right: 100px;
+    border-left-width: 10px;
+    border-bottom-style: none;
+    border-left-style: inset;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+nav{
+    background-color: darkgrey;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    margin-top: 20px;
+}
+nav a{
+    color: black;
+}
+#canvas{
+    margin-left: 430px;
+    height: 250px;
+    width: 500px;
+}
+@media screen and (max-width:1000px)
+{
+    body{
+        width: 800px;
+    }
+    .theme {
+        font-size: 110pt;
+    }
+}
+@media screen and (max-width:800px)
+{
+    body{
+        width: 600px;
+    }
+    .theme {
+        font-size: 80pt;
+    }
+}
+@media screen and (max-device-width:1000px)
+{
+    body{
+        width: 800px;
+    }
+    .theme {
+        font-size: 110pt;
+    }
+}
+@media screen and (max-device-width:800px)
+{
+    body{
+        width: 600px;
+    }
+    .theme {
+        font-size: 80pt;
+    }
+}
+@media screen and (max-device-width:500px)
+{
+    body{
+        width: 300px;
+    }
+    .theme {
+        font-size: 32pt;
+    }
+    h1 {
+        font-size: 10pt;
+    }
+    h2 {
+        font-size: 16pt;
+    }
+    h3{
+        font-size: 14pt;
+    }
+    p {
+        font-size: 12pt;
+    }
+}
